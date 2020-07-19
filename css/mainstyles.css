@@ -43,3 +43,12 @@ img {
     width: 20%;
 }
 
+hr {
+    width: 30%;
+    height: 5px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color: #C4C4C4;
+  }
+
