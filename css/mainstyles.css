@@ -12,5 +12,19 @@ h1 {
 header { 
     margin-left: 120px;
     margin-top: 92px;
-    
+
+}
+
+p {
+    position: absolute;
+    width: 972px;
+    height: 247px;
+    left: 120px;
+    top: 472px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
 }
