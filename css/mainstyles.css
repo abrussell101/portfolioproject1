@@ -9,13 +9,37 @@ h1 {
 
 } 
 
-header { 
-    margin-left: 120px;
+.container { 
+    margin-left: 100px;
     margin-top: 92px;
 
 
 }
 
+.typed-text {
+    font-weight: normal;
+    color: rgb(252, 0, 252);
+}
+
+.cursor {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0%  { background-color: rgb(0, 0, 0); }
+    49% { background-color: rgb(0, 0, 0); }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: rgb(0, 0, 0); }
+  }
 
 p {
     position: absolute;
@@ -50,5 +74,26 @@ hr {
     margin-left: 0px;
     margin-right: auto;
     background-color: #C4C4C4;
+}
+
+.glowhtml {
+    font-size: 40px;
+    color: rgb(255, 7, 7);
+
   }
+.glowcss {
+    font-size: 40px;
+    color: rgb(61, 7, 255);
+
+  }
+.glowjs {
+    font-size: 40px;
+    color: rgb(218, 198, 20);
+
+  }
+
+.email {
+    color: rgb(252, 0, 250);
+}
+
 
