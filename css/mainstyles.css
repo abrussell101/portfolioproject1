@@ -13,7 +13,9 @@ header {
     margin-left: 120px;
     margin-top: 92px;
 
+
 }
+
 
 p {
     position: absolute;
@@ -21,10 +23,23 @@ p {
     height: 247px;
     left: 120px;
     top: 472px;
-
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
     line-height: 50px;
+    padding-bottom: 400px;
 }
+
+.footer {
+    position: fixed;
+    left: 80%;
+    bottom: 0;
+    width: 25%;
+    padding-right: 20px;
+ }
+
+img {
+    width: 20%;
+}
+
